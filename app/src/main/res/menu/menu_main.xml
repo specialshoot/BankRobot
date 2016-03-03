@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.han.bankrobot.MainActivity">
+    <item
+        android:id="@+id/main_voice"
+        android:title="speak"
+        android:orderInCategory="80"
+        android:icon="@android:drawable/ic_btn_speak_now"
+        app:showAsAction="ifRoom" />
+</menu>
